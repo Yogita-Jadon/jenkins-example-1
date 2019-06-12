@@ -16,7 +16,7 @@ pipeline {
                 sh 'cat Jenkinsfile'
             }
         }
-        stage('Build-new') {
+        stage('Build-new1') {
             steps {
                 sh 'cat README.md'
             }
