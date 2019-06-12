@@ -16,5 +16,10 @@ pipeline {
                 sh 'cat Jenkinsfile'
             }
         }
+        stage('Build-new') {
+            steps {
+                sh 'cat README.md'
+            }
+        }
     }
 }
