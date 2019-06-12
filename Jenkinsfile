@@ -11,5 +11,10 @@ pipeline {
                 sh 'ls' 
             }
         }
+        stage('Build-new') {
+            steps {
+                sh 'cat Jenkinsfile'
+            }
+        }
     }
 }
